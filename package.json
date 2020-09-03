@@ -1,0 +1,22 @@
+{
+  "name": "@limm/markrgba-css",
+  "version": "0.0.1",
+  "description": "a mark class for css.",
+  "main": "index.css",
+  "scripts": {
+    "gc": "git add -A && git-cz && git pull && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunSeekerX/markrgba-css.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "SunSeekerX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SunSeekerX/markrgba-css/issues"
+  },
+  "homepage": "https://github.com/SunSeekerX/markrgba-css#readme"
+}
