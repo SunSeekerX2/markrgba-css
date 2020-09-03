@@ -25,7 +25,7 @@ npm i @limm/markrgba-css
 ### Import all components
 
 ```javascript
-import '@limm/markrgba-css'
+import '@limm/markrgba-css/index.css'
 ```
 
 
