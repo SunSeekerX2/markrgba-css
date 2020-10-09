@@ -1,0 +1,19 @@
+.o-h {
+  overflow: hidden;
+}
+
+/* 省略 */
+.c-e {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c-e-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c-e-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
