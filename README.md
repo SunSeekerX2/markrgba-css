@@ -53,7 +53,7 @@ yarn add @limm/markrgba-css
 
 **在 uni-app vue 页面中使用**
 
-`${app}/app.vue`
+`${app}/App.vue`
 
 推荐全部引入，开启 `treeshaking` 会自动裁剪没有用到的类
 
@@ -77,7 +77,39 @@ yarn add @limm/markrgba-css
 /* #endif */
 ```
 
-使用就是简介图上的样式了。
+
+
+**在 uni-app nvue 页面中使用**
+
+`${app}/App.vue`
+
+推荐全部引入，开启 `treeshaking` 会自动裁剪没有用到的类
+
+```scss
+/* #ifdef APP-NVUE */
+@import '@limm/markrgba-css/nvue.css';
+/* #endif */
+```
+
+按需引入
+
+```scss
+/* #ifndef APP-NVUE */
+@import '@limm/markrgba-css/nvue/border.css';//只引入边框
+@import '@limm/markrgba-css/nvue/color.css';//只引入颜色
+@import '@limm/markrgba-css/nvue/font.css';//只引入文字
+@import '@limm/markrgba-css/nvue/layout.css';//只引入布局
+@import '@limm/markrgba-css/nvue/margin.css';//只引入外边距
+@import '@limm/markrgba-css/nvue/other.css';//其他
+@import '@limm/markrgba-css/nvue/padding.css';//只引入内边距
+/* #endif */
+```
+
+
+
+**使用**
+
+就是简介图上直接添加 class 就行了。
 
 
 
