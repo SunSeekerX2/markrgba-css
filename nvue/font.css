@@ -2,7 +2,7 @@
 .ta-l{text-align:left}.ta-r{text-align:right}.ta-c{text-align:center}
 
 /* font-weight (bold) */
-.fw-b{font-weight:bold}
+.fw-b{font-weight:bold}.fw-1{font-weight:100}.fw-2{font-weight:200}.fw-3{font-weight:300}.fw-4{font-weight:400}.fw-5{font-weight:500}.fw-6{font-weight:600}.fw-7{font-weight:700}.fw-8{font-weight:800}.fw-9{font-weight:900}
 
 /* special handling */
 .td-lt{text-decoration:line-through}.t-oh{overflow:hidden;}.t-ohs{overflow:hidden;text-overflow:ellipsis}
