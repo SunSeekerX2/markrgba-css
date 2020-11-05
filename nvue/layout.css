@@ -1,4 +1,11 @@
 /*========== flex ==========*/
+/* display */
+.dp-f {
+	/* #ifndef APP-NVUE */
+	display: flex;
+	display: -webkit-flex;/*在webkit内核的浏览器上使用要加前缀*/
+	/* #endif */
+}
 /* flex-center */
 .dp-fc{align-items:center;justify-content:center}
 /* flex-direction */
