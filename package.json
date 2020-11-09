@@ -1,6 +1,6 @@
 {
   "name": "@limm/markrgba-css",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "a mark class for css.",
   "main": "index.css",
   "scripts": {
