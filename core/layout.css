@@ -1,0 +1,32 @@
+/*========== flex布局相关 ==========*/
+.dp-f {
+	/* #ifndef APP-NVUE */
+	display: flex;
+	display: -webkit-flex;
+	/* #endif */
+}
+
+.dp-fc {
+	/* #ifndef APP-NVUE */
+	display: flex;
+	display: -webkit-flex;
+	/* #endif */
+  align-items: center;
+  justify-content: center;
+}
+/* #ifndef APP-NVUE */
+.dp-ib{display:inline-block}
+/* #endif */
+
+.fd-rr{flex-direction:row-reverse}.fd-c{flex-direction:column}.fd-cr{flex-direction:column-reverse}.fw-w{flex-wrap:wrap}.fw-wr{flex-wrap:wrap-reverse}.jc-fs{justify-content:flex-start}.jc-fe{justify-content:flex-end}.jc-c{justify-content:center}.jc-sb{justify-content:space-between}.jc-sa{justify-content:space-around}.ai-fs{align-items:flex-start}.ai-fe{align-items:flex-end}.ai-c{align-items:center}
+/* #ifndef APP-NVUE */
+.ai-bl{align-items:baseline}.ac-fs{align-content:flex-start}.ac-fe{align-content:flex-end}.ac-c{align-content:center}.ac-sb{align-content:space-between}.ac-sa{align-content:space-around}.as-fs{align-self:flex-start}.as-fe{align-self:flex-end}.as-c{align-self:center}.as-bl{align-self:baseline}
+/* #endif */
+
+/* flex (1~10) */
+.f-1{flex:1}.f-2{flex:2}.f-3{flex:3}.f-4{flex:4}.f-5{flex:5}.f-6{flex:6}.f-7{flex:7}.f-8{flex:8}.f-9{flex:9}.f-10{flex:10}
+
+/* 定位相关 */
+.pt-f{position:fixed}.pt-r{position:relative}.pt-a{position:absolute}
+
+.t-0{top:0}.l-0{left:0}.r-0{right:0}.bot-0{bottom:0}.all-0{top:0;left:0;right:0;bottom:0}

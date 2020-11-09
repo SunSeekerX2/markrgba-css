@@ -1,0 +1,65 @@
+/* #ifndef APP-NVUE */
+.cu-p {
+  cursor: pointer;
+}
+.cu-d {
+  cursor: default;
+}
+.oy-s {
+  overflow-y: scroll;
+}
+.ox-s {
+  overflow-x: scroll;
+}
+.lh-n {
+  line-height: normal;
+}
+/* #endif */
+.o-h {
+  overflow: hidden;
+}
+
+/* 省略 */
+.c-e {
+  overflow: hidden;
+  text-overflow: ellipsis;
+	/* #ifdef APP-NVUE */
+	lines: 1;
+	/* #endif */
+	/* #ifndef APP-NVUE */
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	/* #endif */
+}
+
+.c-e-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+	/* #ifdef APP-NVUE */
+	lines: 2;
+	/* #endif */
+	/* #ifndef APP-NVUE */
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	/* #endif */
+}
+
+.c-e-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+	/* #ifdef APP-NVUE */
+	lines: 3;
+	/* #endif */
+	/* #ifndef APP-NVUE */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+	/* #endif */
+}
+
+/* #ifdef APP-NVUE */
+/* lines（1~100） */
+.line-1{lines:1}.line-2{lines:2}.line-3{lines:3}.line-4{lines:4}.line-5{lines:5}.line-6{lines:6}.line-7{lines:7}.line-8{lines:8}.line-9{lines:9}.line-10{lines:10}.line-11{lines:11}.line-12{lines:12}.line-13{lines:13}.line-14{lines:14}.line-15{lines:15}.line-16{lines:16}.line-17{lines:17}.line-18{lines:18}.line-19{lines:19}.line-20{lines:20}.line-21{lines:21}.line-22{lines:22}.line-23{lines:23}.line-24{lines:24}.line-25{lines:25}.line-26{lines:26}.line-27{lines:27}.line-28{lines:28}.line-29{lines:29}.line-30{lines:30}.line-31{lines:31}.line-32{lines:32}.line-33{lines:33}.line-34{lines:34}.line-35{lines:35}.line-36{lines:36}.line-37{lines:37}.line-38{lines:38}.line-39{lines:39}.line-40{lines:40}.line-41{lines:41}.line-42{lines:42}.line-43{lines:43}.line-44{lines:44}.line-45{lines:45}.line-46{lines:46}.line-47{lines:47}.line-48{lines:48}.line-49{lines:49}.line-50{lines:50}.line-51{lines:51}.line-52{lines:52}.line-53{lines:53}.line-54{lines:54}.line-55{lines:55}.line-56{lines:56}.line-57{lines:57}.line-58{lines:58}.line-59{lines:59}.line-60{lines:60}.line-61{lines:61}.line-62{lines:62}.line-63{lines:63}.line-64{lines:64}.line-65{lines:65}.line-66{lines:66}.line-67{lines:67}.line-68{lines:68}.line-69{lines:69}.line-70{lines:70}.line-71{lines:71}.line-72{lines:72}.line-73{lines:73}.line-74{lines:74}.line-75{lines:75}.line-76{lines:76}.line-77{lines:77}.line-78{lines:78}.line-79{lines:79}.line-80{lines:80}.line-81{lines:81}.line-82{lines:82}.line-83{lines:83}.line-84{lines:84}.line-85{lines:85}.line-86{lines:86}.line-87{lines:87}.line-88{lines:88}.line-89{lines:89}.line-90{lines:90}.line-91{lines:91}.line-92{lines:92}.line-93{lines:93}.line-94{lines:94}.line-95{lines:95}.line-96{lines:96}.line-97{lines:97}.line-98{lines:98}.line-99{lines:99}.line-100{lines:100}
+/* #endif */

@@ -51,61 +51,15 @@ yarn add @limm/markrgba-css
 
 
 
-**在 uni-app vue 页面中使用**
+**在 uni-app 页面中使用**
 
 `${app}/App.vue`
 
 推荐全部引入，开启 `treeshaking` 会自动裁剪没有用到的类
 
 ```scss
-/* #ifndef APP-NVUE */
 @import '@limm/markrgba-css/index.css';
-/* #endif */
 ```
-
-按需引入
-
-```scss
-/* #ifndef APP-NVUE */
-@import '@limm/markrgba-css/css/border.css';//只引入边框
-@import '@limm/markrgba-css/css/color.css';//只引入颜色
-@import '@limm/markrgba-css/css/font.css';//只引入文字
-@import '@limm/markrgba-css/css/layout.css';//只引入布局
-@import '@limm/markrgba-css/css/margin.css';//只引入外边距
-@import '@limm/markrgba-css/css/other.css';//其他
-@import '@limm/markrgba-css/css/padding.css';//只引入内边距
-/* #endif */
-```
-
-
-
-**在 uni-app nvue 页面中使用**
-
-`${app}/App.vue`
-
-推荐全部引入，开启 `treeshaking` 会自动裁剪没有用到的类
-
-```scss
-/* #ifdef APP-NVUE */
-@import '@limm/markrgba-css/nvue.css';
-/* #endif */
-```
-
-按需引入
-
-```scss
-/* #ifndef APP-NVUE */
-@import '@limm/markrgba-css/nvue/border.css';//只引入边框
-@import '@limm/markrgba-css/nvue/color.css';//只引入颜色
-@import '@limm/markrgba-css/nvue/font.css';//只引入文字
-@import '@limm/markrgba-css/nvue/layout.css';//只引入布局
-@import '@limm/markrgba-css/nvue/margin.css';//只引入外边距
-@import '@limm/markrgba-css/nvue/other.css';//其他
-@import '@limm/markrgba-css/nvue/padding.css';//只引入内边距
-/* #endif */
-```
-
-
 
 **使用**
 
@@ -121,137 +75,16 @@ css 生成工具：[https://www.markrgba.cn/#/make-css](https://www.markrgba.cn/
 
 
 
-## English
+## 4️⃣ changelog
 
-> Fork from [https://gitee.com/CLQing/MarkrgbaCss_UniApp](https://gitee.com/CLQing/MarkrgbaCss_UniApp)
+### 0.5.0
 
-### Document
+#### BREAKING CHANGES
 
-[https://docs.markrgba.cn/markrgbaCss/pc/#/introduce](https://docs.markrgba.cn/markrgbaCss/pc/#/introduce)
-
-Generate more css class: [https://www.markrgba.cn/#/make-css](https://www.markrgba.cn/#/make-css)
-
-
-
-### Getting Started
-
-**Install**
-
-```bash
-npm i @limm/markrgba-css
-```
+- w-xp => wp-x
+- 移除 nvue 直接引入就能使用
 
 
 
-**Import all components**
 
-```javascript
-import '@limm/markrgba-css/index.css'
-```
-
-
-
-**Import on demand**
-
-```javascript
-// wip
-```
-
-
-
-### Usage
-
-In your `.vue`  files
-
-```html
-<view class="p-all-32">
-    <view class="c-999 fs-32 pl-32">
-        一款语义化的CSS基础库
-    </view>
-</view>
-```
-
-
-
-example Inline style
-
-Good:
-
-- easy to edit
-
-```html
-<view>
-    <view style="width:500rpx;height:250rpx;padding-top:20rpx;font-size:28rpx border-radius:20rpx">
-        a box
-    </view>
-</view>
-```
-
-Bad:
-
-- Too many inline styles can make Html very bloated
-
-
-
-With markrgba-css
-
-```html
-<view>
-	<view class="w-500 h-250 pt-20 fs-28 br-20">一个box</view>
-</view>
-```
-
-If more same element
-
-```html
-<view>
-    <view class="w-500 h-250 pt-20 fs-28 br-20">一个box</view>
-    <view class="w-500 h-250 pt-20 fs-28 br-20">一个box</view>
-    <view class="w-500 h-250 pt-20 fs-28 br-20">一个box</view>
-    <view class="w-500 h-250 pt-20 fs-28 br-20">一个box</view>
-    <view class="w-500 h-250 pt-20 fs-28 br-20">一个box</view>
-</view>
-```
-
-Resolve
-
-```html
-<view>
-    <view :class="c_box">一个box</view>
-    <view :class="c_box">一个box</view>
-    <view :class="c_box">一个box</view>
-    <view :class="c_box">一个box</view>
-    <view :class="c_box">一个box</view>
-</view>
-```
-
-```javascript
-export default {
-  data() {
-    return {
-      c_box:'w-500 h-250 pt-20 fs-28 br-20'
-    }
-  }
-}
-```
-
-
-
-### Modules
-
-> wip
-
-border
-
-color
-
-font
-
-layout
-
-margin
-
-padding
-
-other
 
