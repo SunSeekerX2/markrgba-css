@@ -58,7 +58,7 @@ yarn add @limm/markrgba-css
 推荐全部引入，开启 `treeshaking` 会自动裁剪没有用到的类
 
 ```scss
-@import '@limm/markrgba-css/index.css';
+@import '@limm/markrgba-css/index.scss';
 ```
 
 **使用**
@@ -75,7 +75,17 @@ css 生成工具：[https://www.markrgba.cn/#/make-css](https://www.markrgba.cn/
 
 
 
-## 4️⃣ changelog
+## 4️⃣ class
+
+|           |                           |      |
+| :-------: | :-----------------------: | :--: |
+| .bw-${x}  |    border-width: xpx;     |      |
+| .bw-${x}r |    border-width: xrpx;    |      |
+| .btw-${x} | border-top-width: ${x}px; |      |
+
+
+
+## 5️⃣ changelog
 
 ### 0.5.0
 
