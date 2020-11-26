@@ -5,7 +5,7 @@
  * @LastEditors: SunSeekerX
  * @LastEditTime: 2020-11-10 09:57:49
  */
- 
+
 /* border-width（0~20）px */
 @for $i from 0 through 20 {
   .bw-#{$i} {
@@ -46,10 +46,47 @@
 }
 
 /* border-style */
-.bs-dotted{border-style:dotted}.bs-dashed{border-style:dashed}.bs-solid{border-style:solid}
+.bs-dotted {
+  border-style: dotted;
+}
+
+.bs-dashed {
+  border-style: dashed;
+}
+
+.bs-solid {
+  border-style: solid;
+}
 
 /* #ifndef APP-PLUS */
-.bs-none{border-style:none}.bs-hidden{border-style:hidden}.bs-double{border-style:double}.bs-groove{border-style:groove}.bs-ridge{border-style:ridge}.bs-inset{border-style:inset}.bs-outset{border-style:outset}
+.bs-none {
+  border-style: none;
+}
+
+.bs-hidden {
+  border-style: hidden;
+}
+
+.bs-double {
+  border-style: double;
+}
+
+.bs-groove {
+  border-style: groove;
+}
+
+.bs-ridge {
+  border-style: ridge;
+}
+
+.bs-inset {
+  border-style: inset;
+}
+
+.bs-outset {
+  border-style: outset;
+}
+
 /* #endif */
 
 /* border-radius (0~100)px */

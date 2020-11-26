@@ -19,10 +19,12 @@
 }
 
 /* #ifndef APP-NVUE */
+
 /* width (0~100)% */
 @for $i from 0 through 100 {
   .w-#{$i}p {
     width: $i * 1%;
   }
 }
+
 /* #endif */

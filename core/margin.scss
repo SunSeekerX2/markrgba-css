@@ -45,6 +45,7 @@
 }
 
 /* #ifndef APP-NVUE */
+
 /* 上下外边(0~50) */
 @for $i from 0 through 50 {
   .m-#{$i}-a {
@@ -54,5 +55,5 @@
     margin: $i + rpx auto;
   }
 }
-/* #endif */
 
+/* #endif */
