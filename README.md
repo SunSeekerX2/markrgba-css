@@ -85,7 +85,13 @@ css 生成工具：[https://www.markrgba.cn/#/make-css](https://www.markrgba.cn/
 
 
 
-## 5️⃣ changelog
+## 5️⃣ 更新日志（CHANGELOG）
+
+### 0.7.0
+
+**功能（Features）**
+
+- 增加 `z-1` 到 `z-100` 的 `z-index: n;` 类
 
 ### 0.5.0
 

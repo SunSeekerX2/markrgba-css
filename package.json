@@ -2,7 +2,7 @@
   "name": "@limm/markrgba-css",
   "version": "0.6.0",
   "description": "a mark class for css.",
-  "main": "index.scss",
+  "main": "src/index.scss",
   "scripts": {
     "pub": "npm publish --access public",
     "gc": "git add -A && git-cz && git pull && git push"

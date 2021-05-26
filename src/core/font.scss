@@ -27,6 +27,7 @@
 }
 
 /* #endif */
+
 .fw-b {
   font-weight: bold;
 }
@@ -43,23 +44,22 @@
 
 /* special handling */
 .t-oh {
-  /* #endif */
   overflow: hidden;
   text-overflow: ellipsis;
 
   /* #ifndef APP-NVUE */
   white-space: nowrap;
+  /* #endif */
 }
 
+/* #ifndef APP-NVUE */
 .td-lt {
-  /* #ifndef APP-NVUE */
   display: -webkit-box;
-
-  /* #endif */
   text-decoration: line-through;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }
+/* #endif */
 
 .t-ohs {
   overflow: hidden;

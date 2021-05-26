@@ -45,6 +45,22 @@
   }
 }
 
+/* border-radius (0~100)px */
+@for $i from 0 through 100 {
+  .br-#{$i} {
+    border-radius: $i + px;
+  }
+
+  .br-#{$i}r {
+    border-radius: $i + rpx;
+  }
+
+  /* border-radius (0~100)% */
+  .br-#{$i}p {
+    border-radius: $i * 1%;
+  }
+}
+
 /* border-style */
 .bs-dotted {
   border-style: dotted;
@@ -58,7 +74,7 @@
   border-style: solid;
 }
 
-/* #ifndef APP-PLUS */
+/* #ifndef APP-NVUE */
 .bs-none {
   border-style: none;
 }
@@ -86,21 +102,4 @@
 .bs-outset {
   border-style: outset;
 }
-
 /* #endif */
-
-/* border-radius (0~100)px */
-@for $i from 0 through 100 {
-  .br-#{$i} {
-    border-radius: $i + px;
-  }
-
-  .br-#{$i}r {
-    border-radius: $i + rpx;
-  }
-
-  /* border-radius (0~100)% */
-  .br-#{$i}p {
-    border-radius: $i * 1%;
-  }
-}
